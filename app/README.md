@@ -1,6 +1,6 @@
 # GoodbyeDPI Türkiye — masaüstü uygulaması (deneysel)
 
-Bu klasördeki `.cmd` betiklerinin yaptığı her şeyi tek bir pencereden yapan Windows uygulaması.
+`scripts/` klasöründeki `.cmd` betiklerinin yaptığı her şeyi tek bir pencereden yapan Windows uygulaması.
 `goodbyedpi.exe`, WinDivert dosyaları ve lisanslar exe'nin içine gömülüdür; ayrı bir klasör taşımanız gerekmez.
 
 ## Neler yapar

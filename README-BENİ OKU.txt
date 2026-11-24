@@ -14,6 +14,8 @@ Program açık kaynak kodlu olduğundan tüm kodu görüp inceleyebilirsiniz. Ba
 GoodbyeDPI'ı Kullanmak
 GoodbyeDPI'ın Türkiye fork'unu kullanmak için iki yöntem bulunmaktadır.
 
+Bu sürümde tüm .cmd dosyaları scripts klasöründedir; aşağıda adı geçen .cmd dosyalarını orada bulabilirsiniz.
+
 Hizmet kurarak kullanma: Yalnızca bir kez hizmeti kurup ardından elle herhangi bir şey çalıştırmaya gerek kalmaksızın bilgisayarınız her yeniden başlatıldığında otomatik olarak çalışır.
 Batch dosyası ile kullanma: batch dosyası ile kullanmada her defasında elle batch dosyasını başlatarak kullanmanız gerekir (batch penceresi kapatıldığında GoodbyeDPI kullanımına son verilir).
 Note

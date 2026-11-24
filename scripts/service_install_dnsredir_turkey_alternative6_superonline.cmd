@@ -1,5 +1,5 @@
 @ECHO OFF
-PUSHD "%~dp0"
+PUSHD "%~dp0.."
 set _arch=x86
 IF "%PROCESSOR_ARCHITECTURE%"=="AMD64" (set _arch=x86_64)
 IF DEFINED PROCESSOR_ARCHITEW6432 (set _arch=x86_64)
@@ -11,8 +11,8 @@ echo Eger yonetici olarak calistirdiysaniz herhangi bir tusa basin.
 pause
 sc stop "GoodbyeDPI"
 sc delete "GoodbyeDPI"
-sc create "GoodbyeDPI" binPath= "\"%CD%\%_arch%\goodbyedpi.exe\" -9 --dns-addr 77.88.8.8 --dns-port 1253 --dnsv6-addr 2a02:6b8::feed:0ff --dnsv6-port 1253" start= "auto"
-sc description "GoodbyeDPI" "Turkiye icin DNS zorlamasini kaldirir. Alternatif Metod 5"
+sc create "GoodbyeDPI" binPath= "\"%CD%\%_arch%\goodbyedpi.exe\" -9" start= "auto"
+sc description "GoodbyeDPI" "Turkiye icin DNS zorlamasini kaldirir. Alternatif Metod 6"
 sc start "GoodbyeDPI"
 
 POPD
