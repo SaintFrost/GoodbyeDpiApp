@@ -1,0 +1,9 @@
+# Build output
+app/bin/
+app/obj/
+dist/
+
+# Editor and per-user files
+.vs/
+*.user
+.claude/settings.local.json
